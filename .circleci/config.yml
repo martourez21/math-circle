@@ -32,9 +32,3 @@
           - store_test_results:
               path: test-results.xml
 
-# Orchestrate our job run sequence
-workflows:
-  build_and_test:
-    jobs:
-      - build
-      - test
