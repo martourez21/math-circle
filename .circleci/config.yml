@@ -29,7 +29,7 @@
           - store_artifacts:
               path: coverage
               prefix: coverage
-          - store_test_artifacts:
+          - store_test_results:
               path: test-results.xml
 
 # Orchestrate our job run sequence
